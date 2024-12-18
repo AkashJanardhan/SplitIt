@@ -1,0 +1,26 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvBalances"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balances will show here"
+            android:textSize="16sp"/>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
+
+
+
